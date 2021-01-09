@@ -2,7 +2,6 @@ var express = require('express');
 const path = require('path');
 const Datastore = require('nedb');
 const cors = require('cors');
-const bodyparser = require('body-parser');
 
 // Create a new Express application.
 const app = express()
